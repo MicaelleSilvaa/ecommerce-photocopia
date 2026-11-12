@@ -1,0 +1,10 @@
+Bundle-Name: product-photocopia-api
+Bundle-SymbolicName: com.product.photocopia.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.product.photocopia.exception,\
+	com.product.photocopia.model,\
+	com.product.photocopia.service,\
+	com.product.photocopia.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../product-photocopia-service/service.xml

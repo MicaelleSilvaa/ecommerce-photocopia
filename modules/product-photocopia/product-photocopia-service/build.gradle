@@ -1,0 +1,12 @@
+dependencies {
+	api project(":modules:product-photocopia:product-photocopia-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+
+buildService {
+	apiDir = "../product-photocopia-api/src/main/java"
+	testDir = "../product-photocopia-test/src/testIntegration/java"
+}
+
+group = "com.product.photocopia"
